@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bg-cover {
+    background-image: url(/img/background_main.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home {
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-cover-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-cover-video video {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+#navbarCollapse {
+    color: #000000;
+}
+
+.navbar-dark {
+    color: #000000;
+}
+
+.box-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.4;
+    /*
+    background: rgba(0, 0, 0, 1);
+    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(9, 0, 255, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(45%, rgba(9, 0, 255, 1)), color-stop(100%, rgba(0, 0, 0, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(9, 0, 255, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(9, 0, 255, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(9, 0, 255, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(9, 0, 255, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
+    */
+    /*
+    background: rgba(0, 0, 0, 1);
+    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 123, 255, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(45%, rgba(0, 123, 255, 1)), color-stop(100%, rgba(0, 0, 0, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 123, 255, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 123, 255, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 123, 255, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 123, 255, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1);
+    */
+    background: rgba(0, 13, 255, 1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0, 13, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0, 13, 255, 1)), color-stop(100%, rgba(0, 0, 0, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 13, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(0, 13, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0, 13, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(0, 13, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#000dff', endColorstr='#000000', GradientType=1);
+}
+
+.box-content {
+    z-index: 2;
+    color: #ffffff;
+    font-size: 1px;
+}
+
+.title1 {
+    font-size: 5rem;
+}
+
+.title2 {
+    font-size: 3rem;
+    height: 100px;
+}
+
+#profiles {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box-text-1 {
+    font-family: 'Sigmar One', cursive;
+    font-size: 3em;
+}
+
+.box-text-2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 45px;
+}
+
+.box-text-3 {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 3em;
+}
+
+.box-text-4 {
+    font-family: 'Carter One', cursive;
+    font-size: 3em;
+}
+
+.navbar-scroll {
+    color: black;
+}
+
+@media(max-width:960px) {
+    .title1 {
+        font-size: 3rem;
+    }
+    .title2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+
+/*
+@media(max-height :101vh) {
+    .navbar {
+        font-size: 5em;
+    }
+}*/
+
+.nav-colored {
+    background-color: #000;
+}
+
+.nav-transparent {
+    background-color: transparent;
+}
